@@ -1,0 +1,204 @@
+Checking users on 192.168.11.215
+	 220 redhat.acme.com ESMTP Sendmail 8.12.8/8.12.8; Sun, 23 Jun 2013 15:24:16 +0300
+
+	 550 5.1.1 Administrator... User unknown
+
+	 550 5.1.1 Guest... User unknown
+
+	 550 5.1.1 alice... User unknown
+
+	 250 2.1.5 <bob@redhat.acme.com>
+
+	 550 5.1.1 support... User unknown
+
+	 250 2.1.5 root <root@redhat.acme.com>
+550 5.1.1 admin... User unknown
+
+	 550 5.1.1 backup... User unknown
+
+	 550 5.1.1 david... User unknown
+
+	 550 5.1.1 john... User unknown
+
+	 550 5.1.1 lisa... User unknown
+
+	 550 5.1.1 mark... User unknown
+
+	 550 5.1.1 sqlusr... User unknown
+
+	 501 5.5.2 Argument required
+
+Checking users on 192.168.11.217
+	 220 ftp3.thinc.local ESMTP Sendmail 8.9.3/8.9.3; Sun, 23 Jun 2013 16:03:19 +0300
+
+	 550 Administrator... User unknown
+
+	 550 Guest... User unknown
+
+	 550 alice... User unknown
+
+	 550 bob... User unknown
+
+	 550 support... User unknown
+
+	 250 root <root@ftp3.thinc.local>
+
+	 550 admin... User unknown
+
+	 550 backup... User unknown
+
+	 550 david... User unknown
+
+	 550 john... User unknown
+
+	 550 lisa... User unknown
+
+	 550 mark... User unknown
+
+	 550 sqlusr... User unknown
+
+Checking users on 192.168.11.219
+	 220 shttp.srv Simple Mail Transfer Service Ready
+
+	 502 Command not implemented
+
+	 502 Command not implemented
+
+	 502 Command not implemented
+
+	 502 Command not implemented
+
+	 502 Command not implemented
+
+	 502 Command not implemented
+
+	 502 Command not implemented
+
+	 502 Command not implemented
+
+	 502 Command not implemented
+
+	 502 Command not implemented
+
+	 502 Command not implemented
+
+	 502 Command not implemented
+
+	 502 Command not implemented
+
+Checking users on 192.168.11.222
+	 220 mailman ESMTP Sendmail 8.11.6/8.11.6; Sun, 23 Jun 2013 15:24:40 +0300
+
+	 550 5.1.1 Administrator... User unknown
+
+	 550 5.1.1 Guest... User unknown
+
+	 550 5.1.1 alice... User unknown
+
+	 550 5.1.1 bob... User unknown
+
+	 550 5.1.1 support... User unknown
+
+	 250 2.1.5 root <root@mailman>
+
+	 550 5.1.1 admin... User unknown
+
+	 550 5.1.1 backup... User unknown
+
+	 550 5.1.1 david... User unknown
+
+	 550 5.1.1 john... User unknown
+
+	 550 5.1.1 lisa... User unknown
+
+	 550 5.1.1 mark... User unknown
+
+	 550 5.1.1 sqlusr... User unknown
+
+Checking users on 192.168.11.227
+	 220 mail.barak.net.il Microsoft ESMTP MAIL Service, Version: 5.0.2195.5329 ready at  Sun, 23 Jun 2013 15:03:41 +0200 
+
+	 252 2.1.5 Cannot VRFY user, but will take message for <Administrator@srv2.acme.local>
+
+	 252 2.1.5 Cannot VRFY user, but will take message for <Guest@srv2.acme.local>
+
+	 252 2.1.5 Cannot VRFY user, but will take message for <alice@srv2.acme.local>
+
+	 252 2.1.5 Cannot VRFY user, but will take message for <bob@srv2.acme.local>
+
+	 252 2.1.5 Cannot VRFY user, but will take message for <support@srv2.acme.local>
+
+	 252 2.1.5 Cannot VRFY user, but will take message for <root@srv2.acme.local>
+
+	 252 2.1.5 Cannot VRFY user, but will take message for <admin@srv2.acme.local>
+
+	 252 2.1.5 Cannot VRFY user, but will take message for <backup@srv2.acme.local>
+
+	 252 2.1.5 Cannot VRFY user, but will take message for <david@srv2.acme.local>
+
+	 252 2.1.5 Cannot VRFY user, but will take message for <john@srv2.acme.local>
+
+	 252 2.1.5 Cannot VRFY user, but will take message for <lisa@srv2.acme.local>
+
+	 252 2.1.5 Cannot VRFY user, but will take message for <mark@srv2.acme.local>
+
+	 252 2.1.5 Cannot VRFY user, but will take message for <sqlusr@srv2.acme.local>
+
+Checking users on 192.168.11.229
+	 220 THINCMAIL ESMTP
+
+	 502 Use HELO/EHLO first.
+
+	 502 Use HELO/EHLO first.
+
+	 502 Use HELO/EHLO first.
+
+	 502 Use HELO/EHLO first.
+
+	 502 Use HELO/EHLO first.
+
+	 502 Use HELO/EHLO first.
+
+	 502 Use HELO/EHLO first.
+
+	 502 Use HELO/EHLO first.
+
+	 502 Use HELO/EHLO first.
+
+	 502 Use HELO/EHLO first.
+
+	 502 Use HELO/EHLO first.
+
+	 502 Use HELO/EHLO first.
+
+	 502 Use HELO/EHLO first.
+
+Checking users on 192.168.11.237
+	 220 SIPSERVER.localdomain ESMTP Postfix
+
+	 550 5.1.1 <Administrator>: Recipient address rejected: User unknown in local recipient table
+
+	 550 5.1.1 <Guest>: Recipient address rejected: User unknown in local recipient table
+
+	 550 5.1.1 <alice>: Recipient address rejected: User unknown in local recipient table
+
+	 550 5.1.1 <bob>: Recipient address rejected: User unknown in local recipient table
+
+	 252 2.0.0 support
+
+	 252 2.0.0 root
+
+	 550 5.1.1 <admin>: Recipient address rejected: User unknown in local recipient table
+
+	 550 5.1.1 <backup>: Recipient address rejected: User unknown in local recipient table
+
+	 550 5.1.1 <david>: Recipient address rejected: User unknown in local recipient table
+
+	 550 5.1.1 <john>: Recipient address rejected: User unknown in local recipient table
+
+	 550 5.1.1 <lisa>: Recipient address rejected: User unknown in local recipient table
+
+	 550 5.1.1 <mark>: Recipient address rejected: User unknown in local recipient table
+
+	 550 5.1.1 <sqlusr>: Recipient address rejected: User unknown in local recipient table
+
